@@ -1,0 +1,324 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "new home",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "IntroIntent",
+          "slots": [],
+          "samples": [
+            "try the game again",
+            "try again",
+            "restart",
+            "restart the game",
+            "yes",
+            "start",
+            "launch the game",
+            "start the game",
+            "i am ready",
+            "yes i am ready"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "LandingSpot_Valley",
+          "slots": [],
+          "samples": [
+            "land in the mountains",
+            "valley of mountains",
+            "the mountains",
+            "mountains",
+            "the valley",
+            "lets land in the valley",
+            "valley",
+            "land me in the valley of mountains",
+            "land in the valley",
+            "the valley of mountains"
+          ]
+        },
+        {
+          "name": "ExplorationOfCaves_TakeCrystal",
+          "slots": [],
+          "samples": [
+            "crystal",
+            "take crystal back",
+            "crystal back to the ship",
+            "take crystal",
+            "Take crystal back to the ship"
+          ]
+        },
+        {
+          "name": "LifeOrDeath_Amputate",
+          "slots": [],
+          "samples": [
+            "let sara amputate",
+            "hand surgery",
+            "remove the hand",
+            "cut away the hand",
+            "amputate hand to prevent frostbite from spreading",
+            "amputate the hand",
+            "amputate",
+            "amputate my hand"
+          ]
+        },
+        {
+          "name": "LifeOrDeath_ReachShip",
+          "slots": [],
+          "samples": [
+            "come back to the ship",
+            "go back to the ship",
+            "try coming back to the ship",
+            "try getting back to the ship",
+            "try reach ship",
+            "try to reach ship",
+            "try to reach before frostbite spreads",
+            "try reach",
+            "try to reach",
+            "treat at ship",
+            "head to the ship",
+            "reach ship",
+            "try reaching before it\u0027s too late",
+            "try reaching the ship",
+            "Try making it back to the ship"
+          ]
+        },
+        {
+          "name": "ExplorationOfCaves_FollowAdvice",
+          "slots": [],
+          "samples": [
+            "advice",
+            "take advice",
+            "take professor\u0027s advice",
+            "follow professors advice",
+            "follow professor",
+            "continue exploring",
+            "explore",
+            "continue exploration",
+            "follow the advice",
+            "follow the professors advice and continue exploration"
+          ]
+        },
+        {
+          "name": "Survival_LongTerm",
+          "slots": [],
+          "samples": [
+            "plan out",
+            "think for the long term",
+            "ration resources to use long term",
+            "plan out ration",
+            "ration",
+            "long term",
+            "ration resources",
+            "think long term",
+            "think long term and ration resources for later use"
+          ]
+        },
+        {
+          "name": "Survival_PlanLater",
+          "slots": [],
+          "samples": [
+            "eat food",
+            "replenish yourself now",
+            "plan it out later",
+            "replenish yourself",
+            "eat now",
+            "replenish yourself and the team",
+            "lets eat",
+            "plan later",
+            "i am tired and hungry let\u0027s eat",
+            "lets eat i am famished",
+            "plan it later"
+          ]
+        },
+        {
+          "name": "SquareOne_Relocate",
+          "slots": [],
+          "samples": [
+            "relocate",
+            "head over to the dune fields",
+            "move to the dune",
+            "relocate to the dune",
+            "go to the sandy dune",
+            "sand",
+            "dune",
+            "land at the dunes",
+            "dune fields",
+            "land in the sand",
+            "lets go to the dune fields",
+            "take me at the dune fields",
+            "the dune fields"
+          ]
+        },
+        {
+          "name": "Sandstorm_build",
+          "slots": [],
+          "samples": [
+            "try to complete",
+            "try to complete the shelter",
+            "try to build the shelter before the storm hits",
+            "try to build the shelter",
+            "build the shelter before the storm hits",
+            "build the shelter before the storm",
+            "complete the shelter before the sandstorm hits",
+            "complete the shelter before the storm hits",
+            "build the shelter",
+            "complete the shelter"
+          ]
+        },
+        {
+          "name": "RescueMission_rescue",
+          "slots": [],
+          "samples": [
+            "rescue everyone",
+            "figure out a way to rescue everyone",
+            "rescue",
+            "try to bring everyone back",
+            "coordinate to bring team back one by one",
+            "coordinate with team to bring everyone back",
+            "coordinate with team",
+            "use the harness and bring everyone back",
+            "bring everyone back",
+            "rescue everyone back"
+          ]
+        },
+        {
+          "name": "RescueMission_abandon",
+          "slots": [],
+          "samples": [
+            "leave to get reinforcements",
+            "save yourself first",
+            "save yourselves first",
+            "get back to the ship and bring necessary reinforcements",
+            "get back to the ship and bring necessary equipments",
+            "get back to the ship",
+            "leave first and bring reinforcements",
+            "bring reinforcements ",
+            "save myself first",
+            "abandon the team and come back",
+            "abandon the team",
+            "leave to get reinforcements for the team"
+          ]
+        },
+        {
+          "name": "Sandstorm_AbandonBuild",
+          "slots": [],
+          "samples": [
+            "abandon building the shelter",
+            "abandon building",
+            "leave the shelter and return to ship",
+            "leave the shelter",
+            "return to the ship",
+            "abandon the shelter",
+            "abandon the shelter and return to the ship"
+          ]
+        },
+        {
+          "name": "WayBack_ShelterDebris",
+          "slots": [],
+          "samples": [
+            "use the debris",
+            "try making something from the ship and shelter debris",
+            "Try to make something from the ship",
+            "Try to make something from debris",
+            "Try to make something from the ship and shelter debris",
+            "use shelter debris",
+            "make something from the debris",
+            "make something from the ship",
+            "salvage",
+            "salvage something from  shelter",
+            "salvage something from destroyed shelter",
+            "salvage something from the debris",
+            "salvage something from the debris of the destroyed shelter and the spaceship"
+          ]
+        },
+        {
+          "name": "WayBack_OldLandingSite",
+          "slots": [],
+          "samples": [
+            "go to the old ship",
+            "old ship",
+            "old landing site",
+            "go to the old landing site",
+            "search party",
+            "send search party",
+            "send a search party to look for old landing site",
+            "look for old landing site",
+            "send a search party to salvage some resources from the debris of a nearby crash landing site of some old mission."
+          ]
+        },
+        {
+          "name": "LandingSpot_Crater",
+          "slots": [],
+          "samples": [
+            "land the ship at crater",
+            "at the crater",
+            "land at the crater",
+            "land at crater",
+            "crater",
+            "the crater",
+            "lets land at the crater"
+          ]
+        },
+        {
+          "name": "SquareOne_StayBack",
+          "slots": [],
+          "samples": [
+            "wait near the crater",
+            "stay near the crater",
+            "wait back at the crater",
+            "wait at the crater",
+            "stay the crater",
+            "stay back at the crater"
+          ]
+        },
+        {
+          "name": "OldLife_Alternate",
+          "slots": [],
+          "samples": [
+            "alternate",
+            "grow crops using alternate ways",
+            "try finding other ways",
+            "try finding other ways to farm",
+            "find other ways to farm",
+            "grow crops using other ways",
+            "find alternate ways to farm"
+          ]
+        },
+        {
+          "name": "OldLife_Reincarnate",
+          "slots": [],
+          "samples": [
+            "reincarnate",
+            "reincarnate ancient life form",
+            "ressurect the aline",
+            "bring back the alien",
+            "bring back the alien to life",
+            "reincarnate the alien",
+            "reincarnate the life form"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "4"
+}
