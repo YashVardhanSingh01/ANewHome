@@ -1,0 +1,21 @@
+service: REST-API
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  memoryaSize: 2048
+  stage: dev
+  timeout: 30
+  region: us-east-1
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http: ANY /{proxy+}
+      - http: ANY /
+    environment:
+      MONGO_USER:  protagonist
+      MONGO_PASSWORD: colonizePluto
+      PORT: 5000
